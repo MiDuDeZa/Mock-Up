@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<title>Profile</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
+	<link href="../css/info.css"  type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="navbar">
+		<div class="nav">
+			<div id="logo">
+				<a href="#"><img src="#" title="Logo" alt="logo"></a>
+			</div>
+			<div id="search">
+			<form>
+				<div class="form-group">
+					<input type="text" class="form-control" id="form-control" placeholder="">
+					<a href="Search.html"><i class="fa fa-circle-thin" aria-hidden="true"></i></a>
+				</div>
+        	</form>
+			</div>
+			<div id="menu">
+				<div class="content">
+					<ul>
+						<li><a href="Homepage sign in.html">HOME</a></li>
+						<li id="icon"><a href="Email.html"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+						<li id="avatar"><div id="square"><a href="#"><div id="ava"></div></a></div></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="top">
+		<div class="info">
+			<div id="image">
+				<img src="../images/avatar.jpg">
+			</div>
+			<div id="info">
+				<h1>Tùng Shusi</h1>
+				<a href="Email.html"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>Hi I'm T I was born somewhere, and then grew up.
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="main">
+		<div class="control">
+			<ul>
+				<div class="dropdown">
+				<button id="myBtn" class="dropbtn"><img src="../images/menu.png"></button>
+				  <div id="myDropdown" class="dropdown-content">
+				    <a href="Album Add more.html">Add photos</a>
+				    <a href="#about">Edit Album</a>
+				  </div>
+				</div>
+				<div id="photo"><li><a href="#" style="font-weight: 600;">Album's Name</a></li></div>
+				<div id="album"><li><a href="Info album.html">Back to Albums</a></li></div>
+			</ul>
+		</div>
+
+		<div class="galery" style="padding-top: 10px;">
+			<a href=""><div class="column1"><img src="../images/1.png"></div></a>
+			<a href=""><div class="column2"><img src="../images/2.png"></div></a>
+			<a href=""><div class="column3"><img src="../images/3.png"></div></a>
+		</div>
+		<div class="galery">
+			<a href=""><div class="column1"><img src="../images/4.png"></div></a>
+			<a href=""><div class="column2"><img src="../images/5.png"></div></a>
+			<a href=""><div class="column3"><img src="../images/6.png"></div></a>
+		</div>
+		<div class="galery">
+			<a href=""><div class="column1"><img src="../images/7.png"></div></a>
+			<a href=""><div class="column2"><img src="../images/8.png"></div></a>
+			<a href=""><div class="column3"><img src="../images/9.png"></div></a>
+		</div>
+		<div class="galery">
+			<a href=""><div class="column1"><img src="../images/10.png"></div></a>
+			<a href=""><div class="column2"><img src="../images/11.png"></div></a>
+			<a href=""><div class="column3"><img src="../images/12.png"></div></a>
+		</div>
+		<div class="galery" style="padding-bottom: 100px;">
+			<a href=""><div class="column1"><img src="../images/13.png"></div></a>
+			<a href=""><div class="column2"><img src="../images/14.png"></div></a>
+			<a href=""><div class="column3"><img src="../images/15.png"></div></a>
+		</div>
+
+
+
+	</div>
+
+	<script>
+	// Get the button, and when the user clicks on it, execute myFunction
+	document.getElementById("myBtn").onclick = function() {myFunction()};
+
+	/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+	function myFunction() {
+	    document.getElementById("myDropdown").classList.toggle("show");
+	}
+	</script>
+
+</body>
+</html>

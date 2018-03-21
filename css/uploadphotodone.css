@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+	font-family: 'Noto Sans', sans-serif;`
+	color: #9d9d9d;
+
+}
+a{
+	color: #9d9d9d;
+}
+
+.navbar{
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: -5px;
+	border-bottom: 1px solid #ccc;
+
+}
+
+.nav{
+	width: 90%;
+	margin: auto;
+	height: 58px;
+}
+#logo{	width: 8%;
+	height: 58px;
+	float: left;
+}
+#search{
+	width: 45%;
+	height: 58px;
+	float: left;
+	text-align: left;
+}
+.form-group{
+	width: 600px;
+    height: auto;
+}
+#form-control{
+	width:552px;
+	height: 15px;
+	border-radius: 20px;
+	padding: 8px 20px;
+	border: 1px solid #ccc;
+	color: #9d9d9d;
+    font-size: 16px;
+
+}
+#form-control:focus{
+	outline: none;
+}
+.fa-circle-thin{
+	margin-left: -30px;
+	color: #bbb;
+}
+
+#menu{
+	width: 22%;
+
+	float: right;
+}
+
+.content{
+	width: 90%;
+
+	float: right;
+	border-right: 1px solid #FFF;
+}
+.content ul, .choose ul{
+	list-style-type: none;
+}
+.content ul li{
+    float: left;
+    width: 32%;
+    font-size: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-right: 1px solid #ccc;
+    margin-top: 24px;
+}
+.content ul li a{
+	text-decoration: none;
+}
+.content ul li a:hover{
+	color: #9d9d9d;
+}
+.fa-2x {
+    font-size: 20px;
+    line-height: 15px;
+}
+
+#icon{
+	width: 25%;
+}
+#avatar{
+	border: none;
+}
+#square{
+	width: 25px;
+    height: 25px;
+    padding-left: 15px;
+    margin-top: -5px;
+}
+#ava{
+    background-image: url('../images/avatar.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.main{
+	width: 70%;
+	margin: auto; 
+	/*background-color: red;*/
+}
+
+.save input{
+	width: 180px;
+    font-size: 20px;
+    color: #888;
+    border: 1px solid #ccc;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    background-color: #fff;
+    float: right;
+    margin-top: 50px;
+
+}
+
+.save input:focus{
+	outline: none;
+}
+
+.choose{
+	padding-top: 300px;
+}
+#choose{
+	padding-top: 200px;
+}
+.choose li{
+	float: left;
+	width: 30%;
+	color: #777;
+}
+
+.choose img{
+	width: 100%;
+	height: auto;
+}
+#column2 img,#column2 input,#column2 h3{
+	margin-left: 20%;
+}
+
+#column3 img,#column3 input,#column3 h3{
+	margin-left: 35%;
+}
+#end{
+	padding-bottom: 350px;
+}
+.caption{
+    width: 80%;
+    height: 15px;
+    border:none;
+    color: #777;
+    font-size: 18px;
+}
+
+.choose :focus{
+	outline: none;
+}
+
+.name{
+	padding-top: 130px;
+}

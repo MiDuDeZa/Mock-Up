@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+	font-family: 'Noto Sans', sans-serif;`
+	color: #9d9d9d;
+
+}
+a{
+	color: #9d9d9d;
+}
+
+.navbar{
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: -5px;
+	border-bottom: 1px solid #ccc;
+
+}
+
+.nav{
+	width: 90%;
+	margin: auto;
+	height: 58px;
+}
+#logo{	width: 8%;
+	height: 58px;
+	float: left;
+}
+#search{
+	width: 45%;
+	height: 58px;
+	float: left;
+	text-align: left;
+}
+.form-group{
+	width: 600px;
+    height: auto;
+}
+#form-control{
+	width:552px;
+	height: 15px;
+	border-radius: 20px;
+	padding: 8px 20px;
+	border: 1px solid #ccc;
+	color: #9d9d9d;
+    font-size: 16px;
+
+}
+#form-control:focus{
+	outline: none;
+}
+.fa-circle-thin{
+	margin-left: -30px;
+	color: #bbb;
+}
+
+#menu{
+	width: 22%;
+
+	float: right;
+}
+
+.content{
+	width: 90%;
+
+	float: right;
+	border-right: 1px solid #FFF;
+}
+.content ul, .column1 ul , .column2 ul {
+	list-style-type: none;
+}
+.content ul li{
+    float: left;
+    width: 32%;
+    font-size: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-right: 1px solid #ccc;
+    margin-top: 24px;
+}
+.content ul li a, .column1 ul li a, .column2 ul li a{
+	text-decoration: none;
+}
+.content ul li a:hover{
+	color: #9d9d9d;
+}
+
+
+
+.fa-2x {
+    font-size: 20px;
+    line-height: 15px;
+}
+
+#icon{
+	width: 25%;
+}
+#avatar{
+	border: none;
+}
+#square{
+	width: 25px;
+    height: 25px;
+    padding-left: 15px;
+    margin-top: -5px;
+}
+#ava{
+    background-image: url('../images/avatar.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.main{
+	width: 90%;
+	margin: auto; 
+	height: 100px;
+}
+.image{
+	width: 500px;
+	height: 350px;
+	margin: auto;
+		 padding-bottom: 20px;
+}
+.image img{
+	width: 100%;
+	
+}
+.slideshow{
+	padding-top: 20px;
+}
+.info{
+	width: 100%;
+	height: 100px;
+}
+.ava{
+	width: 50px;
+	height: 50px;
+	float: left;
+	padding-left: 100px;
+}
+.ava img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.name{
+	float: left;
+	height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    color: #555;
+}
+.photo{
+	float: left;
+	height: 50px;
+    line-height: 54px;
+    padding-left: 90px;
+}
+.photo h2{
+	color: #aaa;
+    font-weight: 300;
+    font-size: 20px;
+}
+.button{
+	float: left;
+	height: 50px;
+    line-height: 54px;
+    padding-left: 120px;
+}
+.images{
+	height: 48px;
+	float:left;
+	width: 90px;
+	margin-left: 5px;
+}
+.images img{
+	height: 100%;
+	border: 1px solid #ccc;
+}
+#info{
+	width: 80%;
+	height: 400px;
+	border-top: 1px solid #ccc;
+	margin: auto;
+}
+.column1{
+
+}
+.column1 ul li, .column2 ul li{
+	float: left;
+	width: 90px;
+}
+.up h2{
+	    padding-top: 30px;
+    padding-bottom: 30px;
+        color: #555;
+}
+.down{
+	    padding-top: 40px;
+}
+.information{
+	color: #aaa;
+    font-weight: 300;
+}
+.last{
+	    padding-top: 50px;
+}
+.last h2{
+	    padding-bottom: 20px;
+	    color:#555;
+}
+.last h3{
+	    font-weight: 100;
+}
